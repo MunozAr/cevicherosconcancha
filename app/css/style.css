@@ -1,0 +1,872 @@
+html, body {
+    height: 100%;
+}
+/*Estilos globales*/
+.np{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*Fondos de Background Links*/
+.fondoInicio{
+  background-image: url(../img/fondoInicio.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+}
+
+.fondoRegistro{
+  background-image: url(../img/fondoRegistro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+}
+
+.fondoRegistro{
+  background-image: url(../img/fondoCanjes.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+}
+
+.fondoLogin{
+  background-image: url(../img/fondoLogin.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+}
+
+.fondoSorteo{
+  background-image: url(../img/fondoRegistro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+}
+
+
+
+/*HEADER*/
+
+header {
+    padding: 0px 0;
+    background-color: #2190f4;
+
+}
+.pos-logo1{
+  margin-top: 35px;
+}
+.blanco-logo2{
+  background-color: white;
+  padding:15px 0;
+}
+
+.nav-pc ul li{
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  text-align: center;
+}
+.li1{
+  width: 32%;
+  border-right: 4px solid white;
+}
+.li1 a,.li2 a,.li3 a{
+  font-family: 'museosans_bold',sans-serif;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s all;
+}
+
+.li1 a:hover,.li2 a:hover,.li3 a:hover{
+  font-family: 'museosans_bold',sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.li2{
+  width: 36%;
+  border-right: 4px solid white;
+}
+
+.li3{
+  width: 32%;
+}
+
+.nav-pc ul{
+  width: 100%;
+}
+
+.nav-pc li:hover>a,.nav-pc li:focus>a,.nav-pc li:active>a,.nav-pc li.active>a{
+	padding: 5px;
+  color: #2190f4;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.2s all;
+}
+
+.bte1{
+
+position: ;
+
+z-index: 9999;
+width: 60px;
+height: 60px;
+padding: 0px 13px;
+background-color: transparent;
+border: 0px;
+box-shadow: 0px 0px 0px transparent;
+transition: all 0.3s;
+margin-top: 6px;
+outline: none;
+/*transform: rotate(0deg);*/
+}
+
+.bte1:hover
+{
+
+transition: all 0.3s;
+
+/*transform: rotate(90deg);*/
+
+}
+
+.bte1:hover .spn2
+{
+
+transition: all 0.5s;
+
+/*margin-top: 13px;
+    margin-bottom: 13px;*/
+
+}
+
+.bte2{
+width: 60px;
+height: 60px;
+padding: 0px 13px;
+background-color: transparent;
+border: 0px;
+box-shadow: 0px 0px 0px transparent;
+transition: all 0.3s;
+outline: none;
+}
+
+
+.spn1{
+height: 5px;
+background-color: white;
+display: block;
+position: relative;
+transition: all 0.3s;
+bottom: 0px;
+border-radius: 100px;
+}
+
+.spn2{
+height: 5px;
+background-color: white;
+display: block;
+margin-top: 5px;
+margin-bottom: 5px;
+transition: all 0.3s;
+position: relative;
+transition: all 0.3s;
+border-radius: 100px;
+
+}
+
+.spn3{
+height: 5px;
+background-color: white;
+display: block;
+position: relative;
+transition: all 0.3s;
+top: 0px;
+border-radius: 100px;
+}
+
+.spn4{
+height: 5px;
+background-color: white;
+display: block;
+position: relative;
+transition: all 0.3s;
+bottom: 15px;
+opacity: 0;
+transform: rotate(45deg);
+border-radius: 100px;
+}
+.spn6{
+height: 5px;
+background-color: white;
+display: block;
+position: relative;
+transition: all 0.3s;
+top: -20px;
+opacity: 0;
+transform: rotate(-45deg);
+border-radius: 100px;
+}
+
+/*movil*/
+.spn12{
+height: 5px;
+background-color: white;
+display: block;
+position: relative;
+transition: all 0.3s;
+bottom: 0px;
+border-radius: 100px;
+}
+
+.spn22{
+height: 5px;
+background-color: white;
+display: block;
+margin-top: 5px;
+margin-bottom: 5px;
+transition: all 0.3s;
+position: relative;
+transition: all 0.3s;
+border-radius: 100px;
+
+}
+
+.spn32{
+height: 5px;
+background-color: white;
+display: block;
+position: relative;
+transition: all 0.3s;
+top: 0px;
+border-radius: 100px;
+}
+
+.spn42{
+height: 5px;
+background-color: white;
+display: block;
+position: relative;
+transition: all 0.3s;
+bottom: 15px;
+opacity: 0;
+transform: rotate(45deg);
+border-radius: 100px;
+}
+.spn62{
+height: 5px;
+background-color: white;
+display: block;
+position: relative;
+transition: all 0.3s;
+top: -20px;
+opacity: 0;
+transform: rotate(-45deg);
+border-radius: 100px;
+}
+
+.subheader-menu{
+    background-color: transparent;
+    position: fixed;
+    margin-top: 80px;
+    transition: all 0.6s;
+    z-index: 999;
+    opacity: 0;
+}
+.subnav-menu{
+  border-radius: 10px;
+  width: 250px;
+}
+.sec-btn-op{
+  background-color: #495a67;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+
+}
+.sec-btn-op:hover,.sec-btn-op .btn-cerrarsesion:hover{
+  background-color: white;
+  border-bottom-right-radius: 25px;
+  color: #2190f4;
+  border-bottom-left-radius: 25px;
+}
+.subnav-menu li{
+width: 100%;
+list-style: none;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #495a67;
+color: white;
+}
+.btn-cerrarsesion{
+  color:white;
+  background-color: #495a67;
+  border: 0px;
+  outline: none;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.exp-bordertop{
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.subnav-menu li a{
+text-decoration: none;
+}
+.subnav-menu li a:hover,.subnav-menu li a:focus{
+color: #2190f4 !important;
+background-color: white !important;
+border-radius: 10px;
+transition: 0.2s all;
+}
+.subnav-menu li:hover,.subnav-menu li:focus{
+color: #2190f4 !important;
+background-color: white !important;
+transition: 0.2s all;
+}
+
+.l-submenu{
+  color: white;
+  font-size: 17px;
+  font-family: 'museosans_bold',sans-serif;
+}
+.border-l{
+  border-bottom: 1px solid white;
+}
+
+.subheadermovil-menu{
+  background: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    visibility: hidden;
+    /*padding-left: 80px; */
+    overflow-y: auto;
+    height: 100%;
+}
+.subnavmovil-menu li{
+  list-style: none;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.subnavmovil-menu li a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'museosans_bold',sans-serif;
+}
+.subnavmovil-menu li:hover>a,.subnavmovil-menu li:focus>a,.subnavmovil-menu li:active>a,.subnavmovil-menu li.active>a{
+  padding: 5px;
+  color: #2190f4;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.2s all;
+}
+
+.tit-usupuntos{
+  color: white;
+  font-family: 'museosans_normal';
+  font-size: 12px;
+}
+.puntos-usupuntos{
+  color: white;
+  font-family: 'museosans_bold';
+  font-size: 30px;
+  padding: 2px;
+  background-color: #df8a00;
+  border-radius: 25px;
+}
+.pts-text{
+  color: white;
+  font-family: 'museosans_bold';
+  font-size: 12px;
+}
+.sorteo-usupuntos{
+  padding: 0px;
+  background-color: #dd636a;
+  border-radius: 25px;
+  margin-top: 2px;
+}
+.puntos-sorteo{
+  color: white;
+  font-family: 'museosans_bold';
+  font-size: 30px;
+}
+.sorteo-text{
+  color: white;
+  font-family: 'museosans_bold';
+  font-size: 16px;
+}
+.sorteo2-text{
+  color: white;
+  font-family: 'museosans_bold';
+  font-size: 11px;
+}
+.pos-sorteo1{
+  margin-top: 3px;
+}
+.pos-sorteo2{
+  margin-top: -5px;
+}
+
+.btn-cerrarsesionmovil{
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  color: white;
+  font-family: 'museosans_bold';
+  font-size: 25px;
+}
+.premio-inicio{
+  color: white;
+  font-family: 'museosans_bold',sans-serif;
+  font-size: 30px;
+}
+.premio2-inicio{
+  color: white;
+  font-family: 'museosans_normal',sans-serif;
+  font-size: 28px;
+}
+
+.fondo-premioinicio{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 25px;
+
+}
+
+/*login.php*/
+.tit-inisesion{
+  color: white;
+  font-family: 'museosans_bold',sans-serif;
+  font-size: 40px;
+}
+
+.fondoColorForm{
+  background-color: #52bbea;
+  padding: 40px;
+  border-radius: 25px;
+}
+.estilo-inputlogin{
+  text-align: center;
+  color: white;
+  font-family: 'museosans_bold',sans-serif;
+  font-size: 25px;
+
+}
+/* Chrome/Opera/Safari */
+.estilo-inputlogin::-webkit-input-placeholder {
+  text-align: center;
+  color: white;
+  font-family: 'museosans_bold',sans-serif;
+  font-size: 25px;
+}
+
+.form-controlLogin{
+  background-color: #75c9ee;
+  border: 0px;
+  border-radius: 25px;
+  height: 40px;
+  outline: none;
+  width: 100%;
+  text-align: center;
+}
+.estilo-btnLogin{
+  background-color: white ;
+  border-radius: 25px;
+  border: 0px;
+  color: #52bbea;
+  padding: 6px 40px;
+  font-family: 'museosans_bold',sans-serif;
+  font-size: 25px;
+  outline: none;
+}
+.pos-btnLogin{
+  margin-top: 20px;
+}
+.estilo-olcontrasena{
+  color: white;
+  font-family: 'museosans_normal',sans-serif;
+}
+
+.pos-Login{
+  margin-top: 15%;
+}
+
+.posPecesLogin{
+  position: fixed;
+  z-index: 999;
+  margin-left: -40px;
+}
+
+.texto-respuestaLogin{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  font-family: 'museosans_bold',sans-serif;
+  font-size: 15px;
+}
+
+/*sorteo.php*/
+.fondoSorteopremio{
+  background-color: white;
+  padding: 20px 20px 0px 20px;
+  margin-top: 80px;
+}
+.pos-concha1{
+  position: relative;
+  margin-left: -75px;
+    margin-top: -50px;
+}
+.pos-concha2{
+  position: relative;
+  margin-right: -52px;
+margin-top: -50px;
+}
+.pos-concha3{
+  position: absolute;
+      margin-left: -63px;
+      margin-top: -55px;
+}
+.pos-concha4{
+  position: absolute;
+      margin-left: -32px;
+      margin-top: -55px;
+}
+.pos-chefSorteo{
+  margin-top: 45px;
+}
+.textPrincipalSorteo{
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.pos-Titulopremio{
+  margin-top: 50px;
+}
+
+.textSorteoPremio{
+  font-family: 'museosans_light';
+  color: #1c71ae;
+  font-size: 28px;
+  line-height: 1.2;
+}
+.negrita-textSorteoPremio{
+  font-family: 'museosans_normal';
+  color: #1c71ae;
+  font-size: 28px;
+
+}
+
+.puntosSorteoletrero{
+  color: white;
+  font-family: 'museosans_light';
+  font-size: 24px;
+  background-color: #1c71ae;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+.pos-ticketsSorteo{
+  margin-top: 15px;
+}
+
+
+/*canje.php*/
+.espacio-topcanje{
+  margin-top: 50px;
+}
+.acumula-espacio{
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+}
+.espacio-img-acumula{
+  margin-top: 20px;
+}
+.border-tituloacumula{
+  padding: 10px;
+  border-bottom: 2px solid #50a8f6;
+}
+.subtitulo-canjea{
+  color: #50a8f6;
+  font-family: 'museosans_normal';
+  font-size: 22px;
+}
+
+.border-canje{
+  border: 2px solid #4468a5;
+  border-radius:25px;
+  padding: 20px;
+}
+.backcolor-canje{
+  background-color: white;
+  padding: 20px;
+  border-radius: 25px;
+}
+.espacio-canjeint{
+  margin-top: 20px;
+}
+.estilo-btnnivel{
+  color: white;
+  background-color: #df8a00;
+  border-radius:20px;
+  padding: 1px 15px 1px 15px;
+  border: 0px;
+  outline: none;
+  cursor:none;
+  font-family: 'museosans_light';
+  font-size: 25px;
+}
+
+.estilo-btncanje{
+  background-color:#df8a00;
+  border-radius:20px;
+  padding: 1px 15px 1px 15px;
+  border:0px;
+  outline: none;
+  font-family: 'museosans_light';
+  font-size: 9px;
+  width: 75px;
+  color: white;
+}
+.espacio-premiocanje{
+  margin-top: 10px;
+}
+.bloqueoPantalla{
+  background-color: rgba(47, 135, 214, 0.7);
+  border-radius:20px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+    left: 0;
+}
+.bloqueoimg{
+  top: 25%;
+  position: relative;
+  margin: auto;
+}
+
+
+/*registro.php*/
+.titulo-registro{
+color:white;
+font-weight: 600;
+font-family: 'museosans_normal';
+font-size: 42px;
+}
+.subtitulo-registro{
+  color:white;
+  font-family: 'museosans_normal';
+  font-size: 20px;
+}
+.back-formularioRegistro{
+  background-color: #52bbea;
+  padding: 25px 25px 25px 25px;
+  border-radius: 15px;
+}
+
+.estiloInputRegistro{
+  background-color: transparent;
+  border: 0;
+  border-radius: 0px;
+  box-shadow: none;
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.estiloInputRegistro::-webkit-input-placeholder{
+color: white;
+font-family: 'museosans_bold';
+font-size: 15px;
+}
+
+
+/*ESTILO RESPONSIVE*/
+@media (min-width: 320px) {
+  .subheader-menu{
+  margin-left: 38%;
+  }
+  .fondoColorForm{
+    padding: 30px;
+  }
+  .pos-chefSorteo{
+    margin-top: 0px;
+  }
+
+  .bte2{
+    margin-top: 15px;
+  }
+
+  .fondo-premioinicio{
+    margin-top: 70%;
+  }
+
+}
+@media (min-width: 375px) {
+  .subheader-menu{
+  margin-left: 38%;
+  }
+  .bte2{
+    margin-top: 22px;
+  }
+}
+
+@media (min-width: 425px) {
+  .subheader-menu{
+  margin-left: 38%;
+  }
+
+}
+@media (min-width: 768px) {
+  .pos-subepuntos{
+    margin-top: 31px;
+  }
+  .bte2{
+    margin-top: 31px;
+  }
+  .fondoColorForm{
+    padding: 40px;
+  }
+  .pos-chefSorteo{
+    margin-top: 45px;
+  }
+  .textPrincipalSorteo{
+    margin-top: 10px;
+  }
+  .pos-ticketsSorteo{
+    margin-top: 45px;
+  }
+}
+
+@media (min-width: 992px) {
+  .li3{
+    width: 25%;
+  }
+  .pos-linksh{
+    margin-top: 45px;
+  }
+
+  .nav-pc ul li{
+    font-size: 14px;
+  }
+  .pos-btnpch{
+    margin-top: 23px;
+  }
+  .subheader-menu {
+    margin-left: 28%;
+  }
+
+  .fondo-premioinicio{
+    margin-top: 49%;
+  }
+  .textPrincipalSorteo{
+    margin-top: 30px;
+  }
+  .pos-ticketsSorteo{
+    margin-top: 15px;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+  .pos-subepuntos{
+    margin-top: 37px;
+  }
+  .li3{
+    width: 32%;
+  }
+
+  .nav-pc ul li{
+    font-size: 16px;
+  }
+
+  .subheader-menu {
+    margin-left: 32%;
+  }
+
+  .fondo-premioinicio{
+    margin-top: 50%;
+  }
+
+
+}
+
+@media (min-width: 1340px) {
+  .pos-subepuntos{
+    margin-top: 30px;
+  }
+  .pos-linksh{
+    margin-top: 54px;
+  }
+  .nav-pc ul li{
+    font-size: 18px;
+  }
+  .pos-btnpch{
+    margin-top: 30px;
+  }
+  .subheader-menu {
+    margin-left: 35%;
+}
+
+}
+
+@media (min-width: 1440px) {
+.pos-subepuntos{
+  margin-top: 26px;
+}
+.blanco-logo2 {
+    padding: 21px 0;
+}
+}
+@media (min-width: 1600px) {
+  .subheader-menu {
+    margin-left: 39%;
+  }
+}
+@media (min-width: 2220px) {
+
+}
+@media (min-width: 2500px) {
+
+}
