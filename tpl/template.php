@@ -4,6 +4,9 @@
   <meta charset="<?php echo $site['charset']; ?>">
   <meta lang="<?php echo $site['lang']?>">
   <meta name="keywords" content="<?php echo $site['keywords']; ?>" >
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
   <link rel="shortcut icon" href="./app/img/favicon.png" type="image/x-icon">
   <meta name="description" content="<?php echo $site['description']; ?>" >
   <title><?php echo $site['name']; ?></title>

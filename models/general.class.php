@@ -390,7 +390,7 @@ class generalQuery extends ConexionBD
         return $rpta;
 	}
 
-	private function consultarUsuario($codigo)
+	public function consultarUsuario($codigo)
 	{
 	
 		//Set Codigo de Cliente
@@ -482,6 +482,14 @@ class generalQuery extends ConexionBD
 					return 1;
 			}
 	 }
+  }
+
+  public function consultarID($codigo){
+        $queryID = 'CALL sp_obtener_IDUsuario('.$codigo.');';
+		$result = $this->conectBD()->prepare($queryID);
+		$result->execute();
+		$call = $result->fetchAll();
+		return $call;
   }
 
   	/*

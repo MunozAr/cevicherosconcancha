@@ -61,6 +61,7 @@
         #3
         public function editar($arg)
         {
+            //print_r($arg);
 
             $usuario_id = $arg['id'];
             $usuario_nombre = $arg['fields'][0];
@@ -83,14 +84,13 @@
                     //array('campo','valor')
                     array('usuario_nombre',$usuario_nombre)
                     ,array('usuario_dni',$usuario_dni)
-                    ,array('usuario_ruc',$usuario_direccion)
-                    ,array('usuario_nombrenegocio',$usuario_departamento)
-                    ,array('usuario_direccionlegal',$usuario_provincia)
-                    ,array('usuario_telefono',$usuario_distrito)
-                    ,array('usuario_email',$usuario_telefono)
-                    ,array('usuario_contrasena',$usuario_email)
-                    ,array('usuario_imagen',$usuario_imagen)
-                    ,array('usuario_activo',1)
+                    ,array('usuario_direccion',$usuario_direccion)
+                    ,array('usuario_departamento',$usuario_departamento)
+                    ,array('usuario_provincia',$usuario_provincia)
+                    ,array('usuario_distrito',$usuario_distrito)
+                    ,array('usuario_telefono',$usuario_telefono)
+                    ,array('usuario_email',$usuario_email)
+                    ,array('usuario_estado',1)
                     ,array('usuario_fecha',$usuario_fecha)
                 ),
                 'conditional'=>array(
