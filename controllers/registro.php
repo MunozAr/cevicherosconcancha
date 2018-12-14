@@ -54,9 +54,8 @@ if($validacion == 1){
         $arrayUpdate['fields'][5] = $distrito;
         $arrayUpdate['fields'][6] = $telefono;
         $arrayUpdate['fields'][7] = $email;
-        $arrayUpdate['fields'][8] = $fechaRegistro;
-
-        
+        $arrayUpdate['fields'][8] = $fechaRegistro;     
+         
         if( $arrayUpdate['id'] != ''){
             $updateverificacion = $update->editar($arrayUpdate);
             if($updateverificacion == 1){

@@ -824,6 +824,21 @@ font-size: 17px;
     margin-top: 70%;
   }
 
+  .np-canjes{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 25px;
+  }
+
+  .espacio-topcanje{
+padding-left: 0px;
+padding-right: 0px;
+  }
+
+  .back-formularioRegistro {
+    padding: 25px 15px 25px 15px;
+}
+
 }
 @media (min-width: 375px) {
   .subheader-menu{
@@ -859,6 +874,9 @@ font-size: 17px;
   .pos-ticketsSorteo{
     margin-top: 45px;
   }
+  .back-formularioRegistro {
+    padding: 25px 50px 25px 50px;
+}
 }
 
 @media (min-width: 992px) {
@@ -888,6 +906,7 @@ font-size: 17px;
   .pos-ticketsSorteo{
     margin-top: 15px;
   }
+  
 
 
 }
@@ -910,6 +929,11 @@ font-size: 17px;
 
   .fondo-premioinicio{
     margin-top: 50%;
+  }
+  .np-canjes{
+    padding-left: 0px;
+    padding-right: 15px;
+    margin-bottom: 0px;
   }
 
 

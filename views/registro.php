@@ -10,7 +10,7 @@
 </p>
 </div>
 
-<div class="col-lg-offset-3 col-lg-6 back-formularioRegistro">
+<div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6 back-formularioRegistro">
 <form class="formularioRegistro" action="registro.php" method="post" autocomplete="off">
 <div class="form-group">
     <input type="text" class="form-control estiloInputRegistro" name="codigo" id="codigo" minlength="6" placeholder="Código de Cliente" maxlength="7" required>
